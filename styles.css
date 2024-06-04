@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    color: rgba(221, 221, 221, 1);
+}
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: radial-gradient(circle, rgba(253,29,29,1) 36%, rgba(62,56,56,1) 100%);
+}
+main{
+    width: 100%;
+    padding: 0 7%;
+}
+
+#img-caption{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#multi-img{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#multi-img > figure{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+#multi-img > figure > img{
+    width: 450px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+#tribute-info:not(#multi-img){
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+h1{
+    font-size: 50px;
+    color: rgba(255, 255, 255, 1);
+}
+
+h2{
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+.divider {
+    border-bottom: 4px solid #888989;
+    margin: 2px 0;
+}
+
+.medium {
+    border-bottom: 8px solid #ffffff;
+}
+
+li:not(b){
+    color: #d1d1d1;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(129, 255, 255);
+}
+
+h3, a{
+    font-size: 35px;
+    margin: 15px 0;
+}
